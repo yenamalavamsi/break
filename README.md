@@ -4,8 +4,8 @@ class class1:
         self.n=n
         self.b=b
     def print_res(self):
-        for i in range(1,self.n):
-             if i==self.b+1:
+        for i in range(1,self.n+1):
+             if i==self.b:
                 break
              print(i)
 def main():
